@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16077EF926FB84AC004A8483 /* orders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16077EF826FB84AC004A8483 /* orders.swift */; };
+		16077EFB26FE23A2004A8483 /* ref.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16077EFA26FE23A2004A8483 /* ref.swift */; };
+		16077EFD26FE2956004A8483 /* CategoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16077EFC26FE2956004A8483 /* CategoryItem.swift */; };
+		166870D426EBAD9A00062B6F /* plateyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 166870D326EBAD9A00062B6F /* plateyApp.swift */; };
+		166870D626EBAD9A00062B6F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 166870D526EBAD9A00062B6F /* ContentView.swift */; };
+		166870D826EBADA300062B6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 166870D726EBADA300062B6F /* Assets.xcassets */; };
+		166870DB26EBADA300062B6F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 166870DA26EBADA300062B6F /* Preview Assets.xcassets */; };
+		166870E626EBADA300062B6F /* plateyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 166870E526EBADA300062B6F /* plateyTests.swift */; };
+		166870F126EBADA400062B6F /* plateyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 166870F026EBADA400062B6F /* plateyUITests.swift */; };
+		166870FF26F0F95900062B6F /* home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 166870FE26F0F95900062B6F /* home.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		166870E226EBADA300062B6F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 166870C826EBAD9A00062B6F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 166870CF26EBAD9A00062B6F;
+			remoteInfo = platey;
+		};
+		166870ED26EBADA400062B6F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 166870C826EBAD9A00062B6F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 166870CF26EBAD9A00062B6F;
+			remoteInfo = platey;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		16077EF826FB84AC004A8483 /* orders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = orders.swift; sourceTree = "<group>"; };
+		16077EFA26FE23A2004A8483 /* ref.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ref.swift; sourceTree = "<group>"; };
+		16077EFC26FE2956004A8483 /* CategoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryItem.swift; sourceTree = "<group>"; };
+		166870D026EBAD9A00062B6F /* platey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = platey.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		166870D326EBAD9A00062B6F /* plateyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = plateyApp.swift; sourceTree = "<group>"; };
+		166870D526EBAD9A00062B6F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		166870D726EBADA300062B6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		166870DA26EBADA300062B6F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		166870DC26EBADA300062B6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		166870E126EBADA300062B6F /* plateyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = plateyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		166870E526EBADA300062B6F /* plateyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = plateyTests.swift; sourceTree = "<group>"; };
+		166870E726EBADA400062B6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		166870EC26EBADA400062B6F /* plateyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = plateyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		166870F026EBADA400062B6F /* plateyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = plateyUITests.swift; sourceTree = "<group>"; };
+		166870F226EBADA400062B6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		166870FE26F0F95900062B6F /* home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = home.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		166870CD26EBAD9A00062B6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		166870DE26EBADA300062B6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		166870E926EBADA400062B6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		166870C726EBAD9A00062B6F = {
+			isa = PBXGroup;
+			children = (
+				166870D226EBAD9A00062B6F /* platey */,
+				166870E426EBADA300062B6F /* plateyTests */,
+				166870EF26EBADA400062B6F /* plateyUITests */,
+				166870D126EBAD9A00062B6F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		166870D126EBAD9A00062B6F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				166870D026EBAD9A00062B6F /* platey.app */,
+				166870E126EBADA300062B6F /* plateyTests.xctest */,
+				166870EC26EBADA400062B6F /* plateyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		166870D226EBAD9A00062B6F /* platey */ = {
+			isa = PBXGroup;
+			children = (
+				166870D326EBAD9A00062B6F /* plateyApp.swift */,
+				166870D526EBAD9A00062B6F /* ContentView.swift */,
+				166870FE26F0F95900062B6F /* home.swift */,
+				16077EF826FB84AC004A8483 /* orders.swift */,
+				16077EFC26FE2956004A8483 /* CategoryItem.swift */,
+				166870D726EBADA300062B6F /* Assets.xcassets */,
+				166870DC26EBADA300062B6F /* Info.plist */,
+				16077EFA26FE23A2004A8483 /* ref.swift */,
+				166870D926EBADA300062B6F /* Preview Content */,
+			);
+			path = platey;
+			sourceTree = "<group>";
+		};
+		166870D926EBADA300062B6F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				166870DA26EBADA300062B6F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		166870E426EBADA300062B6F /* plateyTests */ = {
+			isa = PBXGroup;
+			children = (
+				166870E526EBADA300062B6F /* plateyTests.swift */,
+				166870E726EBADA400062B6F /* Info.plist */,
+			);
+			path = plateyTests;
+			sourceTree = "<group>";
+		};
+		166870EF26EBADA400062B6F /* plateyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				166870F026EBADA400062B6F /* plateyUITests.swift */,
+				166870F226EBADA400062B6F /* Info.plist */,
+			);
+			path = plateyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		166870CF26EBAD9A00062B6F /* platey */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 166870F526EBADA400062B6F /* Build configuration list for PBXNativeTarget "platey" */;
+			buildPhases = (
+				166870CC26EBAD9A00062B6F /* Sources */,
+				166870CD26EBAD9A00062B6F /* Frameworks */,
+				166870CE26EBAD9A00062B6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = platey;
+			productName = platey;
+			productReference = 166870D026EBAD9A00062B6F /* platey.app */;
+			productType = "com.apple.product-type.application";
+		};
+		166870E026EBADA300062B6F /* plateyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 166870F826EBADA400062B6F /* Build configuration list for PBXNativeTarget "plateyTests" */;
+			buildPhases = (
+				166870DD26EBADA300062B6F /* Sources */,
+				166870DE26EBADA300062B6F /* Frameworks */,
+				166870DF26EBADA300062B6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				166870E326EBADA300062B6F /* PBXTargetDependency */,
+			);
+			name = plateyTests;
+			productName = plateyTests;
+			productReference = 166870E126EBADA300062B6F /* plateyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		166870EB26EBADA400062B6F /* plateyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 166870FB26EBADA400062B6F /* Build configuration list for PBXNativeTarget "plateyUITests" */;
+			buildPhases = (
+				166870E826EBADA400062B6F /* Sources */,
+				166870E926EBADA400062B6F /* Frameworks */,
+				166870EA26EBADA400062B6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				166870EE26EBADA400062B6F /* PBXTargetDependency */,
+			);
+			name = plateyUITests;
+			productName = plateyUITests;
+			productReference = 166870EC26EBADA400062B6F /* plateyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		166870C826EBAD9A00062B6F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					166870CF26EBAD9A00062B6F = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					166870E026EBADA300062B6F = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 166870CF26EBAD9A00062B6F;
+					};
+					166870EB26EBADA400062B6F = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 166870CF26EBAD9A00062B6F;
+					};
+				};
+			};
+			buildConfigurationList = 166870CB26EBAD9A00062B6F /* Build configuration list for PBXProject "platey" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 166870C726EBAD9A00062B6F;
+			productRefGroup = 166870D126EBAD9A00062B6F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				166870CF26EBAD9A00062B6F /* platey */,
+				166870E026EBADA300062B6F /* plateyTests */,
+				166870EB26EBADA400062B6F /* plateyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		166870CE26EBAD9A00062B6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				166870DB26EBADA300062B6F /* Preview Assets.xcassets in Resources */,
+				166870D826EBADA300062B6F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		166870DF26EBADA300062B6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		166870EA26EBADA400062B6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		166870CC26EBAD9A00062B6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				166870FF26F0F95900062B6F /* home.swift in Sources */,
+				166870D626EBAD9A00062B6F /* ContentView.swift in Sources */,
+				16077EFB26FE23A2004A8483 /* ref.swift in Sources */,
+				16077EF926FB84AC004A8483 /* orders.swift in Sources */,
+				16077EFD26FE2956004A8483 /* CategoryItem.swift in Sources */,
+				166870D426EBAD9A00062B6F /* plateyApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		166870DD26EBADA300062B6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				166870E626EBADA300062B6F /* plateyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		166870E826EBADA400062B6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				166870F126EBADA400062B6F /* plateyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		166870E326EBADA300062B6F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 166870CF26EBAD9A00062B6F /* platey */;
+			targetProxy = 166870E226EBADA300062B6F /* PBXContainerItemProxy */;
+		};
+		166870EE26EBADA400062B6F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 166870CF26EBAD9A00062B6F /* platey */;
+			targetProxy = 166870ED26EBADA400062B6F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		166870F326EBADA400062B6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		166870F426EBADA400062B6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		166870F626EBADA400062B6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"platey/Preview Content\"";
+				DEVELOPMENT_TEAM = KRSFAV7GXH;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = platey/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jacobaburns54.platey;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		166870F726EBADA400062B6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"platey/Preview Content\"";
+				DEVELOPMENT_TEAM = KRSFAV7GXH;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = platey/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jacobaburns54.platey;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		166870F926EBADA400062B6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KRSFAV7GXH;
+				INFOPLIST_FILE = plateyTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jacobaburns54.plateyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/platey.app/platey";
+			};
+			name = Debug;
+		};
+		166870FA26EBADA400062B6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KRSFAV7GXH;
+				INFOPLIST_FILE = plateyTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jacobaburns54.plateyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/platey.app/platey";
+			};
+			name = Release;
+		};
+		166870FC26EBADA400062B6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KRSFAV7GXH;
+				INFOPLIST_FILE = plateyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jacobaburns54.plateyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = platey;
+			};
+			name = Debug;
+		};
+		166870FD26EBADA400062B6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KRSFAV7GXH;
+				INFOPLIST_FILE = plateyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jacobaburns54.plateyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = platey;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		166870CB26EBAD9A00062B6F /* Build configuration list for PBXProject "platey" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				166870F326EBADA400062B6F /* Debug */,
+				166870F426EBADA400062B6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		166870F526EBADA400062B6F /* Build configuration list for PBXNativeTarget "platey" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				166870F626EBADA400062B6F /* Debug */,
+				166870F726EBADA400062B6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		166870F826EBADA400062B6F /* Build configuration list for PBXNativeTarget "plateyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				166870F926EBADA400062B6F /* Debug */,
+				166870FA26EBADA400062B6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		166870FB26EBADA400062B6F /* Build configuration list for PBXNativeTarget "plateyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				166870FC26EBADA400062B6F /* Debug */,
+				166870FD26EBADA400062B6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 166870C826EBAD9A00062B6F /* Project object */;
+}
